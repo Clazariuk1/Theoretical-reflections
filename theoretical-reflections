@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <h2><<strong> Reflections on eight weeks of theoretical challenges.></strong><br></h2>
+    <h3>Christopher Lazariuk, General Assembly 11/19/23</h3>
+    <h4>"Analyze your performance on these assignments. Identify areas of strength and improvement. Document insights in an index.html or readme.md file and push it to GitHub</h4>
+    <p>
+        <ul>
+            <li>Fizzbuzz</li>
+            <li>Print Alphabet</li>
+            <li>Max Char</li>
+            <li>Find Anagrams</li>
+            <li>charCount</li>
+            <li>reverseSentence</li>
+        </ul>
+    </p>
+    <p>
+        Fizzbuzz. The biggest thing that was a learning curve for me in this early challenge was understanding the necessary/optimized flow order for the conditionals. In that, we must declare the 3 AND 5 equals conditional before others to ensure the program fires in a risk-free order. Another learning curve moment was understanding correct parenthesis syntax.
+        <br>Print Alphabet. Immediately I'd gone a different direction and attempted creation of a string to iterate through rather than an array. Conceptually it was a verisimilitude action. The for Each method call was not the way I'd iterated over my string regardless, and review of this shows the creation of vowels as an input string rather than a variable. News to me. Drier in the end than variable creation it looks.
+        <br>Max Char. I had nightmares because of max char. I'd jumped into the game with only rudimentiary understanding of for of / for in loops and it was a monstrous experience. I'm not sure here why the negative infinity is happening here. It's ultimately not a step I'd followed to reach my answer at the time.
+        <br>Find Anagrams. This is the first time I've seen an example of effective console logging line by line in terms of coding exclusively the next loggable output checkpoint. I'd had a better time on this than Max char, although the biggest thing that stumbled me was the ultimate sorting of the words wasn't quantity based, but placement of the words into specified arrays. Finding the correct pathway was a mildly laborious process. Even now with added familiarity and exposure it will be a challenge to iron in frequency counters as a back pocket function craft and to conceptualize not just making them but recognizing a need for which they're implemented.
+        <br>charCount. I got it basically on my own and didn't need to google a thing! At a good pace too! I felt proudest at this moment for all of the sometimes-drowning feelings of my absorption rate thus far. Continuing to examine bang operators is important for me, I've definitely had difficulty in crafting rule exceptions and definitions (if something's not this do that, or vice versa etc). Must remember that frequency counter is also a means by which to create an array of objects from scratch. For some reason I've had trouble in life correctly creating a variable for str[i] such as 'char'.
+        <br>reverseSentence. To this day I'm still not sure why it works the way it does, but the only stop-up I'd had here was with correctly getting the words split. I notice as well that this is a slightly different method than the one I'd used, if I'm remembering correctly. I definitely didn't make use of startsWith.
+    </p>
+</body>
